@@ -1,0 +1,35 @@
+
+<head>
+	<meta charset="utf-8">
+	<title>Meteor Experiments</title>
+</head>
+
+<body>
+
+	<header class="container">
+		<nav class="navbar navbar-default">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">Blog</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">{{ > loginButtons }}</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main class="container">
+		{{ #if currentUser }}
+		<div class="col-xs-12">
+			<div class="row">
+				<div class="col-xs-4">
+					{{ > form }}
+				</div>
+				<div class="col-xs-8">
+					{{ > list }}
+				</div>
+			</div>
+		</div>
+		{{ /if }}
+	</main>
+
+</body>

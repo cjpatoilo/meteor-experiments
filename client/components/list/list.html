@@ -1,0 +1,28 @@
+<template name="list">
+
+	<div class="row">
+
+		<table class="table table-hover table-responsive">
+			<thead>
+				<tr>
+					<th>date</th>
+					<th>title</th>
+					<th>content</th>
+					<th>action</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{ #each posts }}
+				<tr>
+					<td>{{ dateFormated }}</td>
+					<td>{{ title }}</td>
+					<td>{{ content }}</td>
+					<td><button class="btn btn-danger btn-xs">delete</button></td>
+				</tr>
+				{{ /each }}
+			</tbody>
+		</table>
+
+	</div>
+
+</template>
