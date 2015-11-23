@@ -1,4 +1,4 @@
-[![Meteor Experiments](https://bitbucket-assetroot.s3.amazonaws.com/repository/7eKder/1771259837-cover.png?Signature=Lw7OdM4PwQ1sRAEwcnu5S98DRvg%3D&Expires=1433137578&AWSAccessKeyId=0EMWEFSGA12Z1HF1TZ82)](https://github.com/cjpatoilo/ionic-experiments)
+[![Meteor Experiments](https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xtp1/v/t34.0-12/12272969_908996835814207_863647577_n.jpg?oh=47abc52e03ad1b7902c655b2646b3ae5&oe=56555B3A&__gda__=1448425203_ecc85577252334b9bece558d8e7d6a58)](https://github.com/cjpatoilo/ionic-experiments)
 
 > A showcase of Meteor Experiments written for the creative coding community.
 
